@@ -472,7 +472,6 @@ height:auto;
 
     /* Ховер для іконок */
     .soc-link1:hover  {
-        color: var(--white-bgc);
         background-color: var(--Blue-color);
     }
 
@@ -509,8 +508,7 @@ height:auto;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         color: #AFB1B8;
-        transition: color var(--transition-dur-n-fuc),
-        border-color var(--transition-dur-n-fuc);
+        transition: border-color var(--transition-dur-n-fuc);
     }
 
     .icon {
@@ -519,7 +517,6 @@ height:auto;
        }
 
     .box-link:hover {
-        border: 1px solid var(--Blue-color);
         border-color: var(--Blue-color);
     }
 
